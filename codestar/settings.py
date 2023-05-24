@@ -34,7 +34,9 @@ DEBUG = False
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = [
-    '8000-brindle5-django-blog-kpmcr8ugbm.us2.codeanyapp.com', 'localhost']
+    '8000-brindle5-django-blog-kpmcr8ugbm.us2.codeanyapp.com',
+    'localhost',
+    'django---blog.herokuapp.com']
 
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
